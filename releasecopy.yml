@@ -1,0 +1,7 @@
+---
+- hosts: 172.19.110.195
+  tasks:
+  - name: Ansible copy file to remote server
+    copy:
+      src: /var/rbt_wav_file_mapping.sql
+      dest: /var
