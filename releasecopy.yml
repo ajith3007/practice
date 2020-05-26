@@ -1,5 +1,6 @@
 ---
 - hosts: support-idea-staging
+  become: true
   become_user: root
   tasks:
   - name: Ansible copy file to remote server
